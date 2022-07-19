@@ -18,4 +18,4 @@ For caching, I implemented the ```User Default``` framework, since the data to b
 
 ## Third-party library
 
-As for the third-party library used, use ```PKHUD```, to improve the user experience by displaying a user-friendly way to fill out the Post list.
+As for the third-party library used, use ```PKHUD```, to improve the user experience by displaying a user-friendly way to fill out the Posts list.
