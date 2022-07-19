@@ -17,7 +17,7 @@ protocol HomeViewDelegate: AnyObject {
 
 final class HomePresenter {
     private let api_Network = API_Network.shared
-    weak private var delegate: HomeViewDelegate
+    weak private var delegate: HomeViewDelegate!
 
     init(homeViewDelegate: HomeViewDelegate){
         self.delegate = homeViewDelegate

@@ -6,14 +6,9 @@
 //
 
 import Foundation
-//Todo lo guarda en cache, si mando a llamar el api de nuevo, debo agregar solo los post q no esten en cache
-//si elimino un post lo debo eliminar en mi cache
-//si elimino todo lo elimino de mi cache
-//debo ordenar la lista de favoritos al principio de la lista
-
 
 class PostMapper {
-    
+    //MARK: - GetPost 
     static func mapPost(response: PostResponse) -> [Post] {
         if var postListCache = LocalRepository().getPostList(){
             for item in response {
